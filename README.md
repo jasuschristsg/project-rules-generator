@@ -1,4 +1,4 @@
-# project-rules-generator
+# cowork-md-forge
 
 A Claude skill that analyzes any repository and auto-generates a `claude.md` file in the project root. The generated file gives Claude accurate, project-specific context for every future session — stack versions, architecture conventions, constraints, and interaction style.
 
@@ -21,14 +21,14 @@ The output is plain, declarative prose — no AI boilerplate, no em-dashes, no f
 1. Copy `SKILL.md` into your Claude skills directory:
 
 ```bash
-mkdir -p ~/.claude/skills/project-rules-generator
-cp SKILL.md ~/.claude/skills/project-rules-generator/SKILL.md
+mkdir -p ~/.claude/skills/cowork-md-forge
+cp SKILL.md ~/.claude/skills/cowork-md-forge/SKILL.md
 ```
 
 2. In any Claude Code session, trigger the skill:
 
 ```
-/project-rules-generator
+/cowork-md-forge
 ```
 
 Or describe what you want: "analyze this repo and generate a claude.md"
