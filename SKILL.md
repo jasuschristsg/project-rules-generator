@@ -1,6 +1,6 @@
 ---
-name: project-rules-generator
-description: Use when the user asks to analyze a repository or workspace to generate a root-level custom claude.md file for project alignment.
+name: cowork-md-forge
+description: Use when the user asks to analyze a repository or workspace to generate a root-level custom claude.md file for project alignment. Trigger on phrases like "generate claude.md", "create project rules", "set up cowork config", "analyze my repo and write a claude.md", or any request to bootstrap project-level AI alignment rules.
 ---
 
 # Skill: Customized Configuration Generator
